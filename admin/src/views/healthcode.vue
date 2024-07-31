@@ -67,7 +67,7 @@ export default {
               event:event
             },
           }).then(res=>{
-            console.log(res);
+            this.search()
           })
     },
   },

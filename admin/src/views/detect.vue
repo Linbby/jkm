@@ -158,7 +158,6 @@ export default {
         method: "patch",
         data:{
           tid:row.tid,
-          status:Number(row.status)
         }
       })
         .then((res) => {

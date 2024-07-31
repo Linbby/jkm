@@ -27,8 +27,14 @@ App({
         })
         options.fail&&options.fail(res)
       },
-      complete(res){
-        console.log(options,res);
+      complete:(res)=>{
+        console.log({
+          url: options.url,
+          method:options.method,
+          header:{
+            Authorization:this.globalData.token,
+          },
+          data:options.data,},res);
         options.complete&&options.complete(res)
       }
     })

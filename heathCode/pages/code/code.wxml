@@ -15,7 +15,7 @@
     <view class="module-tittle">
       核酸检测记录
     </view>
-    <view class="module-content" wx:if="{{!resulttext}}">
+    <view class="module-content" wx:if="{{!created_at}}">
      未查询到核酸记录
     </view>
     <view class="module-content" wx:if="{{resulttext}}">

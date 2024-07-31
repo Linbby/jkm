@@ -94,7 +94,7 @@ Page({
         if(data.data.code==200 && data.data.data){
           const created_at = data.data.data.created_at
           const temp = ['阴性','阳性','未出']
-          const tempcolor = ['blue','red','orange']
+          const tempcolor = ['green','red','orange']
           const result = data.data.data.result
           const resulttext = temp[result]
           const resultcolor = tempcolor[result]
