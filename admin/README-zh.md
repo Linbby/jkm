@@ -65,7 +65,7 @@ npm run build:prod
     │    ├── place             //场所码管理
     │    └── vac               //疫苗接种管理
     ├──utils                   // 工具方法
-    |    ├── villages.js       // 杭州行政规划分区表
+    |    ├── villages.js       // 杭州行政区划表
     |    └── request.js        // 网络请求封装
     └── router                 // 路由
          └── index.js               
