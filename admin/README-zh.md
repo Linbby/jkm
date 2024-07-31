@@ -22,6 +22,7 @@ npm run build:prod
 
 
 ## 框架目录结构
+```bash
 ├── src                        // 源代码
 │   ├── assets                 // 主题 字体等静态资源
 │   ├── components             // 全局公用组件
@@ -49,10 +50,10 @@ npm run build:prod
 |
 └── package.json               // package.json
 
-
+```
 ## 业务代码设计
 
-
+```bash
 └── src                        // 源代码
     ├── views                   
     │    ├── login             //登陆页           
@@ -68,7 +69,7 @@ npm run build:prod
     |    └── request.js        // 网络请求封装
     └── router                 // 路由
          └── index.js               
-
+```
 
 ## 部署
 拉取nginx镜像
